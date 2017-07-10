@@ -1,0 +1,32 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background-color: $color-background;
+}
+
+button {
+  padding: 0;
+  border: none;
+  background: inherit;
+  cursor: pointer;
+  border-radius: 0;
+  outline: none;
+}
+
+textarea,
+input {
+  outline: none;
+  border-radius: 0;
+}
+
+a {
+  color: inherit;
+  font-size: 16px;
+  transition: color .3s;
+}
